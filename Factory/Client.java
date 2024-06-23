@@ -1,13 +1,22 @@
 package FactoryMethod.simpleFactory;
 
+import java.lang.reflect.Method;
+
 public class Client {
     public static void main(String[] args) {
-        System.out.println("**** Simple Factory Demonstration ****");
-        AnimalFactory factory = new AnimalFactory();
-        Animal animal = factory.createAnimal(AnimalFactory.Type.DOG);
-        animal.displayBehavior();
+        System.out.println("***Factory Method Pattern Demo.***");
+        AnimalFactory factory;
+        Animal animal;
+        // Create a tiger and display its behavior
+        // using TigerFactory.
+        factory = new TigerFactory();
+        animal = factory.createAnimal();
 
-        animal = factory.createAnimal(AnimalFactory.Type.DOG);
+        animal.displayBehavior();
+        // Create a dog and display its behavior
+        // using DogFactory.
+        factory = new DogFactory();
+        animal = factory.createAnimal();
         animal.displayBehavior();
     }
 }

@@ -1,4 +1,4 @@
-package FactoryMethod.simpleFactory;
+package FactoryMethod.Factory;
 
 /**
  * Tiger

@@ -1,5 +1,6 @@
+// package FactoryMethod.Factory;
 
-class TigerFactory extends AnimalFactory {
+public class TigerFactory extends AnimalFactory {
 
     @Override
     protected Animal createAnimal() {

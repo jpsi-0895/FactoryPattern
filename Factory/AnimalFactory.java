@@ -16,4 +16,11 @@ package FactoryMethod.Factory;
 
 abstract class AnimalFactory {
     protected abstract Animal createAnimal();
+
+    public void createAndDisplayAnimal(String color) {
+        Animal animal;
+        animal = createAnimal(color);
+        animal.displayBehavior();
+    }
+    
 }

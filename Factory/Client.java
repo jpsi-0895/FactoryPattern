@@ -6,17 +6,17 @@ public class Client {
     public static void main(String[] args) {
         System.out.println("***Factory Method Pattern Demo.***");
         AnimalFactory factory;
-        Animal animal;
+        // Animal animal;
         // Create a tiger and display its behavior
         // using TigerFactory.
         factory = new TigerFactory();
-        animal = factory.createAnimal();
+        factory.createAndDisplayAnimal("yellow");
 
-        animal.displayBehavior();
+        // animal.displayBehavior();
         // Create a dog and display its behavior
         // using DogFactory.
         factory = new DogFactory();
-        animal = factory.createAnimal();
+        factory.createAndDisplayAnimal("white");
         animal.displayBehavior();
     }
 }

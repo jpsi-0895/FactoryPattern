@@ -1,4 +1,5 @@
-package FactoryMethod.simpleFactory;
+package simpleFactory;
+
 
 /**
  * Tiger

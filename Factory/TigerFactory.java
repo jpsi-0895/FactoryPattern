@@ -1,4 +1,4 @@
-// package FactoryMethod.Factory;
+package Factory;
 
 public class TigerFactory extends AnimalFactory {
 

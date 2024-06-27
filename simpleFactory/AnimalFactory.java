@@ -1,4 +1,4 @@
-package FactoryMethod.simpleFactory;
+package simpleFactory;
 
 public class AnimalFactory {
     public enum Type {DOG, TIGER};

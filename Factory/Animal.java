@@ -1,4 +1,4 @@
-package FactoryMethod.Factory;
+package Factory;
 
 interface Animal {
     void displayBehavior();

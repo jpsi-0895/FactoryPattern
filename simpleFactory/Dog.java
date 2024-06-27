@@ -1,5 +1,5 @@
 
-package FactoryMethod.simpleFactory;
+package simpleFactory;
 
 public class Dog implements Animal {
 

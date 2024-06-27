@@ -1,5 +1,5 @@
 
-package FactoryMethod.Factory;
+package Factory;
 
 public class Dog implements Animal {
 

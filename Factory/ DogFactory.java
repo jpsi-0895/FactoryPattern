@@ -1,7 +1,7 @@
 
-// package FactoryMethod.Factory;
+package Factory;
 
-public class  DogFactory extends AnimalFactory{
+class DogFactory extends AnimalFactory{
 
     @Override
     protected Animal createAnimal() {

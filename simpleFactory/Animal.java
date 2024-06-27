@@ -1,4 +1,4 @@
-package FactoryMethod.simpleFactory;
+package simpleFactory;
 
 interface Animal {
     void displayBehavior();

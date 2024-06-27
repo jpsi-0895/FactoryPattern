@@ -1,4 +1,4 @@
-package FactoryMethod.simpleFactory;
+package simpleFactory;
 
 public class Client {
     public static void main(String[] args) {

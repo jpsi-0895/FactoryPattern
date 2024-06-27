@@ -1,6 +1,4 @@
-package FactoryMethod.Factory;
-
-import java.lang.reflect.Method;
+package Factory;
 
 public class Client {
     public static void main(String[] args) {
@@ -17,6 +15,5 @@ public class Client {
         // using DogFactory.
         factory = new DogFactory();
         factory.createAndDisplayAnimal("white");
-        animal.displayBehavior();
     }
 }

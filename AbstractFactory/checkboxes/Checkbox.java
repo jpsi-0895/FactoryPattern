@@ -1,5 +1,5 @@
 package AbstractFactory.checkboxes;
 
-public class Checkbox {
-    
+public interface Checkbox {
+    void paint();
 }
